@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchExtension", "MatchExtension\MatchExtension.csproj", "{A2C8EB01-4879-4F8F-B1BB-40A896D75664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchExtensionTests", "MatchExtensionTests\MatchExtensionTests.csproj", "{5358559D-4F9F-4A86-ABB4-8938EE36DB59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2C8EB01-4879-4F8F-B1BB-40A896D75664} = {A2C8EB01-4879-4F8F-B1BB-40A896D75664}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2C8EB01-4879-4F8F-B1BB-40A896D75664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C8EB01-4879-4F8F-B1BB-40A896D75664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C8EB01-4879-4F8F-B1BB-40A896D75664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C8EB01-4879-4F8F-B1BB-40A896D75664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5358559D-4F9F-4A86-ABB4-8938EE36DB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5358559D-4F9F-4A86-ABB4-8938EE36DB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5358559D-4F9F-4A86-ABB4-8938EE36DB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5358559D-4F9F-4A86-ABB4-8938EE36DB59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
